@@ -1,0 +1,210 @@
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.container {
+  font-family: Inter;
+}
+
+.top-right-decoration {
+  width: 400px;
+  height: 400px;
+  background-image: url(../images/top-right-decoration.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar li {
+  font-weight: bold;
+}
+
+.jumbotron-container {
+  font-size: 24px;
+}
+
+.jumbotron-container h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.jumbotron-container img {
+  height: 30em;
+}
+
+.jumbotron-container button {
+  background-color: #000000;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.jumbotron-container button:hover {
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.jumbotron-container .line {
+  height: 5px;
+  width: 100px;
+  background-color: #000000;
+}
+
+.left-decoration {
+  height: 600px;
+  width: 700px;
+  background-image: url(../images/left-decoration.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 700px;
+}
+
+.right-decoration {
+  height: 1000px;
+  width: 375px;
+  background-image: url(../images/right-decoration.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1200px;
+  right: 0;
+}
+
+.about-wrapper {
+  height: 100%;
+}
+
+.about-wrapper .about {
+  font-size: 24px;
+}
+
+.about-wrapper .about .line {
+  height: 5px;
+  width: 100px;
+  background-color: #000000;
+}
+
+.about-wrapper .about img {
+  height: 300px;
+  border-radius: 50px;
+}
+
+.about-wrapper .about .skill-container {
+  width: 100%;
+}
+
+.about-wrapper .about .skill-container img {
+  height: 175px;
+}
+
+.resume-wrapper {
+  color: #FFFFFF;
+  border-radius: 100px;
+  height: 100%;
+}
+
+.resume-wrapper .resume-container {
+  font-size: 24px;
+}
+
+.resume-wrapper .resume-container .line {
+  height: 5px;
+  width: 100px;
+  background-color: #FFFFFF;
+}
+
+.resume-wrapper .resume-container h3 .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.resume-wrapper .resume-container .education-line {
+  padding: 0 50px;
+}
+
+.resume-wrapper .resume-container .education-line .resume-item {
+  margin: 0 0 0 12px;
+  padding: 0 0 25px 25px;
+  border-left: 5px solid #FFFFFF;
+  font-size: 24px;
+  width: 100%;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.resume-wrapper .resume-container .education-line .resume-item h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.resume-wrapper .resume-container .education-line .resume-item ::before {
+  border-radius: 50px;
+  background-color: #000000;
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -1px;
+  left: -15px;
+}
+
+.resume-wrapper .resume-container .internship-line {
+  padding: 0 50px;
+}
+
+.resume-wrapper .resume-container .internship-line .resume-item {
+  margin: 0 0 0 12px;
+  padding: 0 0 25px 25px;
+  border-left: 5px solid #FFFFFF;
+  font-size: 24px;
+  width: 100%;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.resume-wrapper .resume-container .internship-line .resume-item h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.resume-wrapper .resume-container .internship-line .resume-item ::before {
+  border-radius: 50px;
+  background-color: #000000;
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -1px;
+  left: -15px;
+}
+
+.resume-wrapper .resume-container .portfolio .item {
+  height: 250px;
+}
+
+.services-contacts {
+  font-size: 24px;
+}
+
+.services-contacts .line {
+  height: 5px;
+  width: 100px;
+  background-color: #000000;
+}
+/*# sourceMappingURL=style.css.map */
