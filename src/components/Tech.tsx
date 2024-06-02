@@ -1,13 +1,15 @@
 import Image from 'next/image'
 import 'react-tippy/dist/tippy.css';
 import { Tooltip, withTooltip } from 'react-tippy';
+import Laravel from '../assets/img/laravel.png';
+import Bootstrap from '../assets/img/bootstrap.png';
 
 export default function Tech() {
     return(
     <>
-        <div className="mt-40">
         <div>
-            <h1 className="font-semibold text-3xl text-white">Technologies I use</h1>
+        <div>
+            <h1 className="font-semibold text-3xl text-white text-center">Technologies I use</h1>
         </div>
         <div className="grid grid-cols-2 gap-5 mt-4 sm:gird-cols-3 md:grid-cols-4">
             <div className="flex space-x-2 text-white items-center overflow-hidden">
@@ -39,16 +41,16 @@ export default function Tech() {
                 <span className="lang font-medium">Next.js</span>
             </div>
             <div className="flex space-x-2 text-white items-center overflow-hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" className="flex-shrink-0 h-7 w-7"><path d="M224.093 141.297l-11.838 20.842-40.483-71.297L47.494 309.683h84.144c0 11.511 9.178 20.842 20.498 20.842H47.494c-7.322 0-14.088-3.975-17.749-10.423a21.145 21.145 0 01.001-20.84l124.278-218.84C157.685 73.971 164.453 70 171.776 70c7.324 0 14.091 3.973 17.752 10.421l34.565 60.876z" fill="#00C58E"></path> <path d="M314.164 299.4l-77.876-137.123-11.837-20.842-11.838 20.842L134.746 299.4a21.147 21.147 0 00-.001 20.84c3.661 6.448 10.427 10.422 17.749 10.422H296.39c7.324 0 14.093-3.97 17.755-10.419a21.14 21.14 0 00.001-20.843h.018zm-161.67 10.421l71.957-126.702 71.939 126.702H152.494z" fill="#2D3748"></path> <path d="M369.484 320.104c-3.661 6.447-10.426 10.421-17.748 10.421h-55.704c11.321 0 20.498-9.331 20.498-20.842h35.163l-99.774-175.706-15.988 28.162-11.838-20.841 10.078-17.742c3.662-6.449 10.429-10.422 17.752-10.422 7.324 0 14.091 3.973 17.752 10.422l99.809 175.706a21.148 21.148 0 010 20.842z" fill="#108775"></path></svg>
-                <span className="lang font-medium">Nuxt.js</span>
-            </div>
-            <div className="flex space-x-2 text-white items-center overflow-hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="flex-shrink-0 h-7 w-7"><path d="M256 144.03l-55.49-96.11h-79.43L256 281.61 390.92 47.92h-79.43L256 144.03z" fill="#35495E"></path> <path d="M409.4 47.92L256 313.61 102.6 47.92H15.74L256 464.08 496.26 47.92H409.4z" fill="#41B883"></path></svg>
-                <span className="lang font-medium">Vue.js</span>
-            </div>
-            <div className="flex space-x-2 text-white items-center overflow-hidden">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.333 9.933C7.088 6.911 8.978 5.4 12 5.4c4.533 0 5.1 3.4 7.367 3.967 1.511.377 2.833-.189 3.966-1.7-.755 3.022-2.644 4.533-5.666 4.533-4.534 0-5.1-3.4-7.367-3.967-1.511-.378-2.833.189-3.967 1.7zm-5.666 6.8C1.422 13.711 3.31 12.2 6.333 12.2c4.534 0 5.1 3.4 7.367 3.967 1.51.377 2.833-.19 3.967-1.7C16.91 17.489 15.022 19 12 19c-4.533 0-5.1-3.4-7.367-3.967-1.511-.378-2.833.189-3.966 1.7z" fill="url(#prefix__paint0_linear)"></path> <defs><linearGradient id="prefix__paint0_linear" x1=".667" y1="-6.689" x2="23.333" y2="31.089" gradientUnits="userSpaceOnUse"><stop stop-color="#2383AE"></stop> <stop offset="1" stop-color="#6DD7B9"></stop></linearGradient></defs></svg>
                 <span className="lang font-medium">Tailwind CSS</span>
+            </div>
+            <div className="flex space-x-2 text-white items-center overflow-hidden">
+                <img src={Bootstrap.src} alt="bootstrap" className='w-10' />
+                <span className="lang font-medium">Bootstrap</span>
+            </div>
+            <div className="flex space-x-2 text-white items-center overflow-hidden">
+                <img src={Laravel.src} alt="laravel-logo" className='w-17' />
+                <span className="lang font-medium">Laravel</span>
             </div>
         </div>
     </div>
